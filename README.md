@@ -12,6 +12,7 @@ https://github.com/lawy623/LSTM_Pose_Machines/blob/master/dataset/JHMDB/utils/ge
 - Pytorch > 0.4.0
 - CUDA > 9.0
 - Device for running time: NVIDIA GTX 1080 ti
+- Please install package from https://github.com/sovrasov/flops-counter.pytorch to compute flops
 
 3. Getting Start
 - modify all path for data or models
