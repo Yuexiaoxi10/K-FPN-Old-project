@@ -24,7 +24,7 @@ https://github.com/lawy623/LSTM_Pose_Machines/blob/master/dataset/JHMDB/utils/ge
 - please refer 'eval_PCKh.py' to get evaluation code
 - to compute 
 
-5. Download pre-trained model
+5. Download pre-trained model(TODO)
 - Create a folder named 'models'
 - Download our pre-trained model and add them to 'models'
 
