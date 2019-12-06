@@ -7,11 +7,11 @@
 https://github.com/lawy623/LSTM_Pose_Machines/blob/master/dataset/JHMDB/utils/getBox.m to get bounding box, and saved .mat file for each of video
 - We pre-trained dictionary of human skeleton by using https://github.com/liuem607/DYAN
 
-2. pre-requirement
+2. Pre-requirement
 - Python 3.6
 - Pytorch > 0.4.0
 - CUDA > 9.0
-- platform for running time: NVIDIA GTX 1080 ti
+- Device for running time: NVIDIA GTX 1080 ti
 
 3. Getting Start
 - modify all path for data or models
