@@ -11,15 +11,17 @@ https://github.com/lawy623/LSTM_Pose_Machines/blob/master/dataset/JHMDB/utils/ge
 - Python 3.6
 - Pytorch > 0.4.0
 - CUDA > 9.0
+- platform for running time: NVIDIA GTX 1080 ti
 
 3. Getting Start
 - modify all path for data or models
 - For training: please run 'main_*.py'
-- For validation: pleae run 'test_*.py'
+- For validation: please run 'test_*.py'
 - For testing: we used https://github.com/microsoft/human-pose-estimation.pytorch with model which trained on MPII to get pose estimations on our key frames; after you get estimations from Simple Baseline, please replace skeleton information in the dataloader for test split
 
 4. Evaluation
 - please refer 'eval_PCKh.py' to get evaluation code
+- to compute 
 
 5. Download pre-trained model
 - Create a folder named 'models'
