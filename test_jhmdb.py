@@ -48,10 +48,6 @@ def test_val(net, testloader, epoch, alpha, Dictionary_pose, dataset_test, gpu_i
 
             t0 = time.time()
 
-            if nframes <= T:
-                nframes = nframes
-
-
             feature , Dictionary,_ = net.forward(inputData)
             out = net.forward2(feature, alpha)
 
@@ -93,7 +89,7 @@ def test_val(net, testloader, epoch, alpha, Dictionary_pose, dataset_test, gpu_i
             # BBOX.append(bbox)
             # nFrames.append = nframes
 
-        'baseline running time per frame: 0.0149/40 , based on Geforce 1080 ti'
+        'baseline running time per frame: 0.0149/40 , based on NVIDIA GTX 1080 ti'
         # totalTime = numKey * (0.0149/40) + statistics.mean(Time)*sample_num
         # print('time/fr ms:',  1000*(totalTime/T*sample_num))
 
