@@ -24,3 +24,6 @@ https://github.com/lawy623/LSTM_Pose_Machines/blob/master/dataset/JHMDB/utils/ge
 5. Download pre-trained model
 - Create a folder named 'models'
 - Download our pre-trained model and add them to 'models'
+
+6. License
+- The use of this software is RESTRICTED to non-commercial research and educational purposes
