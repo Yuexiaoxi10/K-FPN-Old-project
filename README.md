@@ -1,4 +1,7 @@
 # Keyframe-Proposal-Network
+
+- For our new version, please go to : https://github.com/Yuexiaoxi10/Key-Frame-Proposal-Network-for-Efficient-Pose-Estimation-in-Videos
+
 1. Data preparation
 - In this project, we used two popular public dataset:JHMDB and Penn Action
 - Please download JHMDB from: http://jhmdb.is.tue.mpg.de/
